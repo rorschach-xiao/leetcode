@@ -20,9 +20,12 @@ class Solution(object):
 
 if __name__ == '__main__':
     solution = Solution()
-    n = 100
+    n = 1000
     D = {}
     for i in range(n):
         re = solution.rand10()
         if re not in D:
-            
+            D[re] = 1
+        else:
+            D[re]+=1
+    print(D)
