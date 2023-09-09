@@ -4,103 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20221216 commit">
-      <change afterPath="$PROJECT_DIR$/python/leetcode1023.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1700.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1971.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode2131.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode235.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode40.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode6265.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode6266.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode6267.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode6268.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode80.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode962.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20230907 commit">
+      <change afterPath="$PROJECT_DIR$/python/leetcode29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode55.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/additional1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/additional1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/additional2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/additional2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/additional3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/additional3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/additional4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/additional4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode102.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode102.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode103.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode103.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode105.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode105.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode113.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode113.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode121.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode121.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode1249.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode1249.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode129.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode129.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode13.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode14.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode142.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode142.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode143.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode143.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode146.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode146.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode148.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode148.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode15.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode16.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode162.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode162.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode165.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode165.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode173.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode173.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode174.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode174.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode1775.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode1775.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode19.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode198.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode198.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode199.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode199.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode200.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode200.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode209.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode209.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode22.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode221.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode221.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode222.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode222.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode236.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode236.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode24.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode25.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode297.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode297.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode300.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode300.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode31.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode322.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode322.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode33.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode39.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode39.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode404.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode404.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode417.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode417.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode46.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode46.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode470.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode470.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode475.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode475.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode48.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode48.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode515.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode515.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode54.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode54.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode56.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode587.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode587.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode6257.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode6257.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode6258.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode6258.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode6259.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode6259.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode6260.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode6260.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode64.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode665.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode665.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode671.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode671.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode695.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode695.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode699.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode699.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode78.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode78.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode79.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode79.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode797.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode797.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode812.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode812.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode82.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode82.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode90.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode90.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode912.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode912.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode92.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode92.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode93.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode93.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode958.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode958.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode98.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode98.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode993.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode993.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,29 +214,7 @@
       <recent name="D:\zmo_project\leetcode\python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.leetcode18">
-    <configuration name="leetcode1700" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode1700.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.leetcode55">
     <configuration name="leetcode18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,28 +229,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode18.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leetcode1971" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode1971.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode6268" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode29" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,7 +272,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode6268.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode29.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode50.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode55" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode55.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,18 +327,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.leetcode18" />
-      <item itemvalue="Python.leetcode6268" />
-      <item itemvalue="Python.leetcode1971" />
-      <item itemvalue="Python.leetcode1700" />
+      <item itemvalue="Python.leetcode29" />
+      <item itemvalue="Python.leetcode50" />
+      <item itemvalue="Python.leetcode55" />
       <item itemvalue="Python.leetcode2131" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode55" />
+        <item itemvalue="Python.leetcode29" />
+        <item itemvalue="Python.leetcode50" />
         <item itemvalue="Python.leetcode18" />
         <item itemvalue="Python.leetcode2131" />
-        <item itemvalue="Python.leetcode1700" />
-        <item itemvalue="Python.leetcode1971" />
-        <item itemvalue="Python.leetcode6268" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +385,7 @@
       <workItem from="1673610644466" duration="1323000" />
       <workItem from="1673758480430" duration="1196000" />
       <workItem from="1674934791258" duration="112000" />
-      <workItem from="1694076938111" duration="5970000" />
+      <workItem from="1694076938111" duration="13288000" />
     </task>
     <task id="LOCAL-00001" summary="20210821 commit">
       <created>1629546470908</created>
@@ -535,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671125819500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20230907 commit">
+      <created>1694126658708</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694126658708</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -591,7 +506,8 @@
     <MESSAGE value="20220504 commit" />
     <MESSAGE value="20221215 commit" />
     <MESSAGE value="20221216 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221216 commit" />
+    <MESSAGE value="20230907 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230907 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,6 +805,7 @@
     <SUITE FILE_PATH="coverage/leetcode$leetcode6259.coverage" NAME="leetcode6259 Coverage Results" MODIFIED="1670796375465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode797.coverage" NAME="leetcode797 Coverage Results" MODIFIED="1670059646093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode993.coverage" NAME="leetcode993 Coverage Results" MODIFIED="1651600193323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/leetcode$leetcode29.coverage" NAME="leetcode29 Coverage Results" MODIFIED="1694245187722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode1700.coverage" NAME="leetcode1700 Coverage Results" MODIFIED="1671492047873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode6266.coverage" NAME="leetcode6266 Coverage Results" MODIFIED="1671332266892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode6260.coverage" NAME="leetcode6260 Coverage Results" MODIFIED="1671105554577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
@@ -902,6 +819,7 @@
     <SUITE FILE_PATH="coverage/leetcode$leetcode812.coverage" NAME="leetcode812 Coverage Results" MODIFIED="1670778002938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode1775.coverage" NAME="leetcode1775 Coverage Results" MODIFIED="1670445657741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode1971.coverage" NAME="leetcode1971 Coverage Results" MODIFIED="1671477398830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/leetcode$leetcode50.coverage" NAME="leetcode50 Coverage Results" MODIFIED="1694130524030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode14.coverage" NAME="leetcode14 Coverage Results" MODIFIED="1670449035769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode121.coverage" NAME="leetcode121 Coverage Results" MODIFIED="1650741479671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode962.coverage" NAME="leetcode962 Coverage Results" MODIFIED="1671208642565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
