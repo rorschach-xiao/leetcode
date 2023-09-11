@@ -25,8 +25,26 @@ class Solution(object):
             fast = fast.next.next
             slow = slow.next
             start_flag = 1
-
         return None
+
+    def detectCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        fast = head
+        slow = head
+        meet_flag = 0
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast: break
+        if fast is None or fast.next is None: return None
+        fast = head
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        return fast
 if __name__ == '__main__':
     head = ListNode(0)
     head.next = node_1 = ListNode(1)

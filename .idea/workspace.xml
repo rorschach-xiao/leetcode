@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20230910 commit">
-      <change afterPath="$PROJECT_DIR$/python/leetcode169.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode88.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20230911 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode80.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode80.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +382,7 @@
       <workItem from="1673610644466" duration="1323000" />
       <workItem from="1673758480430" duration="1196000" />
       <workItem from="1674934791258" duration="112000" />
-      <workItem from="1694076938111" duration="29431000" />
+      <workItem from="1694076938111" duration="31109000" />
     </task>
     <task id="LOCAL-00001" summary="20210821 commit">
       <created>1629546470908</created>
@@ -465,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694336704886</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20230911 commit">
+      <created>1694420500909</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694420500909</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -524,7 +527,8 @@
     <MESSAGE value="20230907 commit" />
     <MESSAGE value="20230909 commit" />
     <MESSAGE value="20230910 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20230910 commit" />
+    <MESSAGE value="20230911 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230911 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
