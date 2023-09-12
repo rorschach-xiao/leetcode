@@ -1,19 +1,18 @@
 class Solution:
     def maxProfit(self, prices):
-        n = len(prices)
-        dp_pre = 0
-        dp_cur = None
-        min_p = prices[0]
-        for i in range(n):
-            if prices[i] < min_p:
-                min_p = prices[i]
-            if i!=0:
-                dp_cur = max(dp_pre,prices[i]-min_p)
-                dp_pre = dp_cur
-        if dp_cur is None:
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        if len(prices) == 1:
             return 0
-        else:
-            return dp_cur
+        profit = 0
+        minPrice = prices[0]
+        for price in prices:
+            if price < minPrice:
+                minPrice = price
+            profit = max(profit, price - minPrice)
+        return profit
 
 if __name__ == '__main__':
     solution = Solution()

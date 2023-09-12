@@ -34,7 +34,6 @@ class Solution(object):
         """
         fast = head
         slow = head
-        meet_flag = 0
         while fast is not None and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
