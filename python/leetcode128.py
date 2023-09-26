@@ -20,3 +20,7 @@ class Solution(object):
                 _dict[num + right] = currentLen
 
         return maxLen
+
+if __name__ == "__main__" :
+    solution = Solution()
+    print(solution.longestConsecutive([90, 1, 100, 3, 2, 4]))
