@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     # def insert(self, intervals, newInterval):
     #     """
@@ -37,33 +40,49 @@ class Solution(object):
     #
     #     return intervals
     #
-    def insert(self, intervals, newInterval):
-        """
-        :type intervals: List[List[int]]
-        :type newInterval: List[int]
-        :rtype: List[List[int]]
-        """
-        insert = False
+    # def insert(self, intervals, newInterval):
+    #     """
+    #     :type intervals: List[List[int]]
+    #     :type newInterval: List[int]
+    #     :rtype: List[List[int]]
+    #     """
+    #     insert = False
+    #     ans = []
+    #     for li, ri in intervals:
+    #         if li > newInterval[1]: # new interval is on the left
+    #             if not insert:
+    #                 ans.append(newInterval)
+    #                 insert = True
+    #             ans.append([li, ri])
+    #         elif ri < newInterval[0]: # new interval is on the right
+    #             ans.append([li, ri])
+    #         else:
+    #             newInterval[0] = min(li, newInterval[0])
+    #             newInterval[1] = max(ri, newInterval[1])
+    #
+    #     if not insert:
+    #         ans.append(newInterval)
+    #
+    #     return ans
+
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         ans = []
-        for li, ri in intervals:
-            if li > newInterval[1]: # new interval is on the left
-                if not insert:
+        flag = 0
+        for interval in intervals:
+            if interval[1] < newInterval[0]:
+                ans.append(interval)
+            elif (interval[1] >= newInterval[0] >= interval[0]
+                  or interval[0] <= newInterval[1] <= interval[1]):
+                newInterval[0] = min(interval[0], newInterval[0])
+                newInterval[1] = max(interval[1], newInterval[1])
+            elif interval[0] > newInterval[1]:
+                if flag == 0:
+                    flag = 1
                     ans.append(newInterval)
-                    insert = True
-                ans.append([li, ri])
-            elif ri < newInterval[0]: # new interval is on the right
-                ans.append([li, ri])
-            else:
-                newInterval[0] = min(li, newInterval[0])
-                newInterval[1] = max(ri, newInterval[1])
-
-        if not insert:
+                ans.append(interval)
+        if flag == 0:
             ans.append(newInterval)
-
         return ans
-
-
-
 
 
 if __name__ == '__main__':
