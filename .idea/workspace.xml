@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231025 commit">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1757.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1068.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1075.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1148.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1251.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1280.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1378.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1581.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1661.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1683.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1934.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode197.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode570.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode577.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode595.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode620.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,23 +206,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/xiaoyang/PycharmProjects/leetcode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiaoyang/PycharmProjects/leetcode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\zmo_project\leetcode\python" />
@@ -392,7 +410,8 @@
       <workItem from="1694815613463" duration="4504000" />
       <workItem from="1695544632365" duration="5095000" />
       <workItem from="1695805299057" duration="4193000" />
-      <workItem from="1696228054083" duration="80587000" />
+      <workItem from="1696228054083" duration="82105000" />
+      <workItem from="1698384734531" duration="10406000" />
     </task>
     <task id="LOCAL-00001" summary="20210821 commit">
       <created>1629546470908</created>
@@ -625,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698314120645</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="20231025 commit">
+      <created>1698314863354</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698314863354</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
