@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231025 commit">
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1068.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1075.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1148.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1251.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1280.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1378.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1581.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1661.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1683.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode1934.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode197.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode570.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode577.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode595.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/leetcode620.sql" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231026 commit">
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1174.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1193.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1211.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode1633.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/leetcode550.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -411,7 +401,7 @@
       <workItem from="1695544632365" duration="5095000" />
       <workItem from="1695805299057" duration="4193000" />
       <workItem from="1696228054083" duration="82105000" />
-      <workItem from="1698384734531" duration="10406000" />
+      <workItem from="1698384734531" duration="13926000" />
     </task>
     <task id="LOCAL-00001" summary="20210821 commit">
       <created>1629546470908</created>
@@ -651,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698314863354</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="20231026 commit">
+      <created>1698435567745</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1698435567745</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -721,7 +718,8 @@
     <MESSAGE value="20231023 commit" />
     <MESSAGE value="20231024 commit" />
     <MESSAGE value="20231025 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231025 commit" />
+    <MESSAGE value="20231026 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231026 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
