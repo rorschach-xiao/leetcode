@@ -13,8 +13,14 @@ class TreeNode:
         stack.append(root)
         while len(l) > 0 :
             cur = stack.pop(0)
-            l_v = l.pop(0)
-            r_v = l.pop(0)
+            if len(l) > 0:
+                l_v = l.pop(0)
+            else:
+                l_v = None
+            if len(l) > 0:
+                r_v = l.pop(0)
+            else:
+                r_v = None
             if l_v is not None:
                 left_node = cls(l_v)
                 cur.left = left_node
