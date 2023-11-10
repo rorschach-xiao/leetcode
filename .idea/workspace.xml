@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231107 commit">
-      <change afterPath="$PROJECT_DIR$/python/leetcode112.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode124.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231109 commit">
+      <change afterPath="$PROJECT_DIR$/python/leetcode637.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode129.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode129.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/utils/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/utils/Tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +398,7 @@
       <workItem from="1695805299057" duration="4193000" />
       <workItem from="1696228054083" duration="82105000" />
       <workItem from="1698384734531" duration="21249000" />
-      <workItem from="1699402948329" duration="12503000" />
+      <workItem from="1699402948329" duration="17838000" />
     </task>
     <task id="LOCAL-00001" summary="20210821 commit">
       <created>1629546470908</created>
@@ -692,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699440239270</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="20231109 commit">
+      <created>1699526169559</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1699526169559</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -740,7 +742,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210906 commit" />
     <MESSAGE value="20220424 commit" />
     <MESSAGE value="20220503 commit" />
     <MESSAGE value="20220504 commit" />
@@ -765,7 +766,8 @@
     <MESSAGE value="20231030 commit" />
     <MESSAGE value="20231031 commit" />
     <MESSAGE value="20231107 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231107 commit" />
+    <MESSAGE value="20231109 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231109 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,7 +884,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/leetcode173.py</url>
-          <line>39</line>
+          <line>62</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
