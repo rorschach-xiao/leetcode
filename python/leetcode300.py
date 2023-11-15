@@ -1,29 +1,42 @@
-class Solution(object):
-    def lengthOfLIS(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        n = len(nums)
 
+from typing import List
+
+
+# dp
+# class Solution:
+#     def lengthOfLIS(self, nums: List[int]) -> int:
+#         n = len(nums)
+#         if n == 1:
+#             return 1
+#         dp = [1 for _ in range(n)]
+#         maxLen = float("-inf")
+#         for i in range(1, n):
+#             for j in range(i):
+#                 if nums[i] > nums[j]:
+#                     dp[i] = max(dp[i], dp[j] + 1)
+#                 maxLen = max(maxLen, dp[i])
+#         return maxLen
+
+# binary search + greedy
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        n = len(nums)
         if n == 1:
             return 1
-        tails = [0]*n
-        res = 0
-        for i in range(0, n):
-            left,right = 0,res
-            while(left<right):
-                mid = (left+right)//2
-                if nums[i]>tails[mid]:
-                    left = mid+1
-                else:
-                    right=mid
-            tails[left]=nums[i]
-            if right==res:
-                res+=1
-
-        return res
-
+        tails = [nums[0]]
+        for i in range(n):
+            if nums[i] > tails[-1]:
+                tails.append(nums[i])
+            else:
+                left, right = 0, len(tails)
+                while left < right:
+                    mid = (left + right) // 2
+                    if tails[mid] < nums[i]:
+                        left = mid + 1
+                    else:
+                        right = mid
+                tails[left] = nums[i]
+        return len(tails)
 
 if __name__ == '__main__':
     solution = Solution()
