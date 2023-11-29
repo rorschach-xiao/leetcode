@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231126 [Prefix Sum]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode1071.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1431.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1768.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode334.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode345.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode443.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode605.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231128 [Prefix Sum]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode1679.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/leetcode283.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode283.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,21 +401,7 @@
       <workItem from="1699402948329" duration="72241000" />
       <workItem from="1700288618961" duration="8089000" />
       <workItem from="1700436779564" duration="63635000" />
-      <workItem from="1701160108953" duration="7471000" />
-    </task>
-    <task id="LOCAL-00016" summary="20230924 commit">
-      <created>1695545081850</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1695545081850</updated>
-    </task>
-    <task id="LOCAL-00017" summary="20230925 commit">
-      <created>1695694330768</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1695694330768</updated>
+      <workItem from="1701160108953" duration="12934000" />
     </task>
     <task id="LOCAL-00018" summary="20230925 commit">
       <created>1695694392918</created>
@@ -751,7 +732,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701114552532</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="20231127 [Double Pointer]">
+      <created>1701173100692</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1701173100692</updated>
+    </task>
+    <task id="LOCAL-00066" summary="20231128 [Prefix Sum]">
+      <created>1701218251166</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1701218251166</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -799,8 +794,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231023 commit" />
-    <MESSAGE value="20231024 commit" />
     <MESSAGE value="20231025 commit" />
     <MESSAGE value="20231026 commit" />
     <MESSAGE value="20231027 commit" />
@@ -824,7 +817,9 @@
     <MESSAGE value="20231122 [Heap sort]" />
     <MESSAGE value="20231124 [Heap]" />
     <MESSAGE value="20231126 [Prefix Sum]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231126 [Prefix Sum]" />
+    <MESSAGE value="20231127 [Double Pointer]" />
+    <MESSAGE value="20231128 [Prefix Sum]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231128 [Prefix Sum]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

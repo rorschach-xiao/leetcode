@@ -1,4 +1,7 @@
-class Solution(object):
+from typing import List
+
+
+# class Solution(object):
     # def moveZeroes(self, nums):
     #     """
     #     :type nums: List[int]
@@ -16,21 +19,34 @@ class Solution(object):
     #         else:
     #             pointer += 1
 
-    def moveZeroes(self, nums):
+    # def moveZeroes(self, nums):
+    #     """
+    #     :type nums: List[int]
+    #     :rtype: None Do not return anything, modify nums in-place instead.
+    #     """
+    #     if len(nums) <= 1:
+    #         return;
+    #     n = len(nums)
+    #     numOfNonZeros = 0
+    #     for i in range(n):
+    #         if nums[i] != 0:
+    #             nums[numOfNonZeros] = nums[i]
+    #             numOfNonZeros+=1
+    #     for j in range(numOfNonZeros, n):
+    #         nums[j] = 0
+
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        if len(nums) <= 1:
-            return;
+        write, read = 0, 0
         n = len(nums)
-        numOfNonZeros = 0
-        for i in range(n):
-            if nums[i] != 0:
-                nums[numOfNonZeros] = nums[i]
-                numOfNonZeros+=1
-        for j in range(numOfNonZeros, n):
-            nums[j] = 0
+        while read < n:
+            if nums[read] != 0:
+                nums[write], nums[read] = nums[read], nums[write]
+                write += 1
+            read += 1
 
 
 
