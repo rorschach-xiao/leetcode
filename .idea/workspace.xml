@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231201 [stack]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode649.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode933.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231201 [queue]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode206.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode2095.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode2130.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode328.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,14 +405,8 @@
       <workItem from="1700436779564" duration="63635000" />
       <workItem from="1701160108953" duration="12934000" />
       <workItem from="1701299201247" duration="5397000" />
-      <workItem from="1701425825808" duration="8968000" />
-    </task>
-    <task id="LOCAL-00022" summary="20231018 commit">
-      <created>1697621329850</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1697621329850</updated>
+      <workItem from="1701425825808" duration="9599000" />
+      <workItem from="1701558853715" duration="3620000" />
     </task>
     <task id="LOCAL-00023" summary="20231018 commit">
       <created>1697673480851</created>
@@ -748,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701473692089</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="20231201 [queue]">
+      <created>1701478177663</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1701478177663</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -796,7 +799,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231030 commit" />
     <MESSAGE value="20231031 commit" />
     <MESSAGE value="20231107 commit" />
     <MESSAGE value="20231109 commit" />
@@ -821,7 +823,8 @@
     <MESSAGE value="20231129 [Sliding Window]" />
     <MESSAGE value="20231130 [Set]" />
     <MESSAGE value="20231201 [stack]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231201 [stack]" />
+    <MESSAGE value="20231201 [queue]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231201 [queue]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
