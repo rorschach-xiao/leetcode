@@ -16,3 +16,15 @@ class Solution:
                 count += 1
                 current_intersection = point
         return count
+
+
+    def findMinArrowShots(self, points: List[List[int]]) -> int:
+        points = sorted(points, key=lambda x: x[1])
+        n = len(points)
+        ans = 1
+        right = points[0][1]
+        for i in range(1, n):
+            if points[i][0] > right:
+                ans += 1
+                right = points[i][1]
+        return ans
