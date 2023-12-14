@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231212 [intervals]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode739.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode901.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231213 [BFS]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode1444.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/leetcode23.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode23.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,7 @@
       <recent name="D:\zmo_project\leetcode\python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.leetcode901">
+  <component name="RunManager" selected="Python.leetcode815">
     <configuration name="leetcode1268" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,28 +242,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode2336" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode2336.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="leetcode2542" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,6 +256,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode2542.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode815" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/leetcode815.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,19 +331,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.leetcode815" />
       <item itemvalue="Python.leetcode901" />
       <item itemvalue="Python.leetcode1268" />
-      <item itemvalue="Python.leetcode2336" />
       <item itemvalue="Python.leetcode2542" />
       <item itemvalue="Python.leetcode875" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.leetcode815" />
         <item itemvalue="Python.leetcode901" />
         <item itemvalue="Python.leetcode1268" />
         <item itemvalue="Python.leetcode875" />
         <item itemvalue="Python.leetcode2542" />
-        <item itemvalue="Python.leetcode2336" />
       </list>
     </recent_temporary>
   </component>
@@ -408,21 +408,7 @@
       <workItem from="1701641498340" duration="8853000" />
       <workItem from="1701808227465" duration="3676000" />
       <workItem from="1702028354427" duration="28681000" />
-      <workItem from="1702421818492" duration="5468000" />
-    </task>
-    <task id="LOCAL-00034" summary="20231025 commit">
-      <created>1698314863354</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1698314863354</updated>
-    </task>
-    <task id="LOCAL-00035" summary="20231026 commit">
-      <created>1698435567745</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1698435567745</updated>
+      <workItem from="1702421818492" duration="10896000" />
     </task>
     <task id="LOCAL-00036" summary="20231027 commit">
       <created>1698453246529</created>
@@ -753,7 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702425701328</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="20231212 [monotonic stack]">
+      <created>1702508906544</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1702508906544</updated>
+    </task>
+    <task id="LOCAL-00084" summary="20231213 [BFS]">
+      <created>1702513116621</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1702513116622</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -801,8 +801,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231119 [Trie]" />
-    <MESSAGE value="20231120 [Trie]" />
     <MESSAGE value="20231120 [Bit manipulation]" />
     <MESSAGE value="20231121 [Math]" />
     <MESSAGE value="20231122 [Multi-dimension DP]" />
@@ -826,7 +824,9 @@
     <MESSAGE value="20231210 [DP]" />
     <MESSAGE value="20231211 [Trie &amp; Bit manipulation]" />
     <MESSAGE value="20231212 [intervals]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231212 [intervals]" />
+    <MESSAGE value="20231212 [monotonic stack]" />
+    <MESSAGE value="20231213 [BFS]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231213 [BFS]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1311,6 +1311,11 @@
           <line>16</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/leetcode815.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1429,6 +1434,7 @@
     <SUITE FILE_PATH="coverage/leetcode$leetcode174.coverage" NAME="leetcode174 Coverage Results" MODIFIED="1670703099464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode133.coverage" NAME="leetcode133 Coverage Results" MODIFIED="1700216082159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode150.coverage" NAME="leetcode150 Coverage Results" MODIFIED="1698221628063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/leetcode$leetcode815.coverage" NAME="leetcode815 Coverage Results" MODIFIED="1702512972930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode6267.coverage" NAME="leetcode6267 Coverage Results" MODIFIED="1671336466108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode1775.coverage" NAME="leetcode1775 Coverage Results" MODIFIED="1670445657741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/leetcode$leetcode50.coverage" NAME="leetcode50 Coverage Results" MODIFIED="1694130524030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
