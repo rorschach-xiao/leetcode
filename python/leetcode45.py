@@ -1,21 +1,42 @@
-class Solution(object):
-    def jump(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        jump = 0
-        start = 0
-        end = 1
+# class Solution(object):
+#     def jump(self, nums):
+#         """
+#         :type nums: List[int]
+#         :rtype: int
+#         """
+#         jump = 0
+#         start = 0
+#         end = 1
+#         n = len(nums)
+#         while end < n:
+#             maxPos = 0
+#             for i in range(start, end):
+#                 if nums[i] + i > maxPos:
+#                     maxPos = nums[i] + i
+#             start = end
+#             end = maxPos + 1
+#             jump += 1
+#         return jump
+from typing import List
+
+
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        start, end = 0, 1
         n = len(nums)
+        jump = 0
+        if n == 1:
+            return 0
+
         while end < n:
-            maxPos = 0
-            for i in range(start, end):
-                if nums[i] + i > maxPos:
-                    maxPos = nums[i] + i
-            start = end
-            end = maxPos + 1
+            next_end = end
+            while start < end:
+                if start + nums[start] > next_end:
+                    next_end = nums[start] + start
+                start += 1
             jump += 1
+            end = next_end + 1
+
         return jump
 
 if __name__ == '__main__':
