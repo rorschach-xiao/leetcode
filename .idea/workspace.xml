@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231214 [Greedy + prefixSum]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode1010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1047.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1209.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1254.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode152.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode400.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode946.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20231217 [tiktok]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode496.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode503.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode733.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode141.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode141.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode143.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode143.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode238.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/leetcode40.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode40.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,14 +410,7 @@
       <workItem from="1701641498340" duration="8853000" />
       <workItem from="1701808227465" duration="3676000" />
       <workItem from="1702028354427" duration="28681000" />
-      <workItem from="1702421818492" duration="30610000" />
-    </task>
-    <task id="LOCAL-00043" summary="20231110 commit">
-      <created>1699614260155</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1699614260155</updated>
+      <workItem from="1702421818492" duration="33245000" />
     </task>
     <task id="LOCAL-00044" summary="20231110 commit">
       <created>1699738066301</created>
@@ -761,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702692455699</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="20231217 [tiktok]">
+      <created>1703115996180</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1703115996180</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -809,7 +803,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231128 [Prefix Sum]" />
     <MESSAGE value="20231129 [Sliding Window]" />
     <MESSAGE value="20231130 [Set]" />
     <MESSAGE value="20231201 [stack]" />
@@ -834,7 +827,8 @@
     <MESSAGE value="20231214 [BFS]" />
     <MESSAGE value="20231214 [Greedy]" />
     <MESSAGE value="20231214 [Greedy + prefixSum]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231214 [Greedy + prefixSum]" />
+    <MESSAGE value="20231217 [tiktok]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20231217 [tiktok]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
