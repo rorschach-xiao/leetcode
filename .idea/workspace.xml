@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240101 [DP]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode1035.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1312.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240104 [DP-stock buy and sell]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode2140.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode2466.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode279.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode377.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode474.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode518.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode91.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode983.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -410,21 +416,7 @@
       <workItem from="1702028354427" duration="28681000" />
       <workItem from="1702421818492" duration="43673000" />
       <workItem from="1703324547572" duration="490000" />
-      <workItem from="1703638763975" duration="14740000" />
-    </task>
-    <task id="LOCAL-00050" summary="20231116 [DP-1D]">
-      <created>1700216463086</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1700216463087</updated>
-    </task>
-    <task id="LOCAL-00051" summary="20231117 [Graph]">
-      <created>1700308049632</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1700308049633</updated>
+      <workItem from="1703638763975" duration="27964000" />
     </task>
     <task id="LOCAL-00052" summary="20231118 [Graph BFS]">
       <created>1700354510442</created>
@@ -755,7 +747,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704181541705</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="20240102 [DP-longest common seq]">
+      <created>1704242840969</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1704242840969</updated>
+    </task>
+    <task id="LOCAL-00100" summary="20240104 [DP-stock buy and sell]">
+      <created>1704500516391</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1704500516391</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -803,8 +809,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231203 [Tree DFS &amp; BFS]" />
-    <MESSAGE value="20231204 [BST]" />
     <MESSAGE value="20231204 [Graph DFS/BFS]" />
     <MESSAGE value="20231207 [Graph BFS]" />
     <MESSAGE value="20231208 [Heap]" />
@@ -828,7 +832,9 @@
     <MESSAGE value="20231226 [DP]" />
     <MESSAGE value="20231227 [DP]" />
     <MESSAGE value="20240101 [DP]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240101 [DP]" />
+    <MESSAGE value="20240102 [DP-longest common seq]" />
+    <MESSAGE value="20240104 [DP-stock buy and sell]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240104 [DP-stock buy and sell]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
