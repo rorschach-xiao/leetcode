@@ -34,43 +34,70 @@
 #             R -= 1
 #
 #         return self.result
-class Solution(object):
-    def threeSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        nums = sorted(nums)
-        if len(nums) < 3 or nums[-1] < 0 or nums[0] > 0:
-            return []
-        n = len(nums)
-        i = 0
-        result = []
-        while i < n - 2:
-            if nums[i] > 0:
-                return result
-            if i > 0 and nums[i] == nums[i - 1]:
-                i += 1
-                continue
-            left = i + 1
-            right = n - 1
-            current_sum = - nums[i]
+# class Solution(object):
+#     def threeSum(self, nums):
+#         """
+#         :type nums: List[int]
+#         :rtype: List[List[int]]
+#         """
+#         nums = sorted(nums)
+#         if len(nums) < 3 or nums[-1] < 0 or nums[0] > 0:
+#             return []
+#         n = len(nums)
+#         i = 0
+#         result = []
+#         while i < n - 2:
+#             if nums[i] > 0:
+#                 return result
+#             if i > 0 and nums[i] == nums[i - 1]:
+#                 i += 1
+#                 continue
+#             left = i + 1
+#             right = n - 1
+#             current_sum = - nums[i]
+#
+#             while left < right:
+#                 if (nums[left] + nums[right] == current_sum):
+#                     result.append([nums[i], nums[left], nums[right]])
+#                     while (nums[left] == nums[left + 1] and left + 1 < right):
+#                         left += 1
+#                     left += 1
+#                     while (nums[right] == nums[right - 1] and left < right - 1):
+#                         right -= 1
+#                     right -= 1
+#                 elif (nums[left] + nums[right] > current_sum):
+#                     right -= 1
+#                 else:
+#                     left += 1
+#             i += 1
+#         return result
+from typing import List
 
+
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        n = len(nums)
+        if n < 3:
+            return []
+        nums = sorted(nums)
+        ans = set()
+        for i in range(n - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+            left, right = i + 1, n - 1
             while left < right:
-                if (nums[left] + nums[right] == current_sum):
-                    result.append([nums[i], nums[left], nums[right]])
-                    while (nums[left] == nums[left + 1] and left + 1 < right):
-                        left += 1
+                cur_sum = nums[i] + nums[left] + nums[right]
+                if cur_sum > 0:
+                    right -= 1
+                elif cur_sum < 0:
+
                     left += 1
-                    while (nums[right] == nums[right - 1] and left < right - 1):
-                        right -= 1
-                    right -= 1
-                elif (nums[left] + nums[right] > current_sum):
-                    right -= 1
                 else:
+                    ans.add(str([nums[i], nums[left], nums[right]]))
                     left += 1
-            i += 1
-        return result
+                    right -= 1
+        return [list(map(int, tri[1:-1].split(','))) for tri in ans]
+
 if __name__ == '__main__':
     solution = Solution()
     nums = [-1,0,1,2,-1,-4]

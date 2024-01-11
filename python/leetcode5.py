@@ -52,28 +52,49 @@
 #                     re = s[i: j + 1]
 #         return re
 
+#class Solution:
+#     def longestPalindrome(self, s: str) -> str:
+#         n = len(s)
+#         if n == 1:
+#             return s
+#         start, end = 0, 0
+#         for i in range(n):
+#             left1, right1 = self.expand(i, i, s)
+#             left2, right2 = self.expand(i, i + 1, s)
+#
+#             if right1 - left1 > end - start:
+#                 start, end = left1, right1
+#             if right2 - left2 > end - start:
+#                 start, end = left2, right2
+#         return s[start: end + 1]
+#
+#     def expand(self, start, end, s):
+#         while (start >= 0 and end <= len(s) - 1 and s[start] == s[end]):
+#             start -= 1
+#             end += 1
+#         return start + 1, end - 1
+
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        self.s = s
+        self.ans = ''
         n = len(s)
-        if n == 1:
-            return s
-        start, end = 0, 0
         for i in range(n):
-            left1, right1 = self.expand(i, i, s)
-            left2, right2 = self.expand(i, i + 1, s)
+            self.expand(i, i)
+            if i < n - 1:
+                self.expand(i, i + 1)
+        return self.ans
 
-            if right1 - left1 > end - start:
-                start, end = left1, right1
-            if right2 - left2 > end - start:
-                start, end = left2, right2
-        return s[start: end + 1]
-
-    def expand(self, start, end, s):
-        while (start >= 0 and end <= len(s) - 1 and s[start] == s[end]):
-            start -= 1
-            end += 1
-        return start + 1, end - 1
-
+    def expand(self, left, right):
+        while left >= 0 and right < len(self.s):
+            if self.s[left] == self.s[right]:
+                if len(self.ans) < right - left + 1:
+                    self.ans = self.s[left:right + 1]
+                left -= 1
+                right += 1
+            else:
+                break
 
 
 
