@@ -20,22 +20,39 @@
 from typing import List
 
 
+# class Solution:
+#     def jump(self, nums: List[int]) -> int:
+#         start, end = 0, 1
+#         n = len(nums)
+#         jump = 0
+#         if n == 1:
+#             return 0
+#
+#         while end < n:
+#             next_end = end
+#             while start < end:
+#                 if start + nums[start] > next_end:
+#                     next_end = nums[start] + start
+#                 start += 1
+#             jump += 1
+#             end = next_end + 1
+#
+#         return jump
+
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        start, end = 0, 1
         n = len(nums)
-        jump = 0
         if n == 1:
             return 0
-
-        while end < n:
-            next_end = end
-            while start < end:
-                if start + nums[start] > next_end:
-                    next_end = nums[start] + start
-                start += 1
+        end, next_end = nums[0], nums[0]
+        i, jump = 0, 1
+        while end < n - 1 :
+            while i <= end:
+                if i + nums[i] > next_end:
+                    next_end = i + nums[i]
+                i += 1
             jump += 1
-            end = next_end + 1
+            end = next_end
 
         return jump
 
