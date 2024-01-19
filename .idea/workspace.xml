@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240113 [snowflake OA]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1420.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode486.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240117 [Two Pointers]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode42.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/leetcode45.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode45.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/leetcode63.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode63.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,28 +416,7 @@
       <workItem from="1703324547572" duration="490000" />
       <workItem from="1703638763975" duration="30439000" />
       <workItem from="1704934353009" duration="5698000" />
-      <workItem from="1705009436973" duration="31878000" />
-    </task>
-    <task id="LOCAL-00060" summary="20231122 [Multi-dimension DP]">
-      <created>1700787423873</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1700787423873</updated>
-    </task>
-    <task id="LOCAL-00061" summary="20231122 [Heap sort]">
-      <created>1700865394499</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1700865394499</updated>
-    </task>
-    <task id="LOCAL-00062" summary="20231124 [Heap]">
-      <created>1700881479639</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1700881479639</updated>
+      <workItem from="1705009436973" duration="37914000" />
     </task>
     <task id="LOCAL-00063" summary="20231126 [Prefix Sum]">
       <created>1701079204479</created>
@@ -765,7 +740,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705217559159</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="20240116 [Dynamic Programming]">
+      <created>1705457503017</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1705457503017</updated>
+    </task>
+    <task id="LOCAL-00110" summary="20240117 [Dynamic Programming]">
+      <created>1705546241236</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1705546241236</updated>
+    </task>
+    <task id="LOCAL-00111" summary="20240117 [Two Pointers]">
+      <created>1705552255984</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1705552255984</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -813,9 +809,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231212 [intervals]" />
-    <MESSAGE value="20231212 [monotonic stack]" />
-    <MESSAGE value="20231213 [BFS]" />
     <MESSAGE value="20231213 [DP + 2D prefix sum]" />
     <MESSAGE value="20231213 [minHeap]" />
     <MESSAGE value="20231214 [DFS + backtrace]" />
@@ -838,7 +831,10 @@
     <MESSAGE value="20240112 [Dynamic Programming]" />
     <MESSAGE value="20240113 [Dynamic Programming]" />
     <MESSAGE value="20240113 [snowflake OA]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240113 [snowflake OA]" />
+    <MESSAGE value="20240116 [Dynamic Programming]" />
+    <MESSAGE value="20240117 [Dynamic Programming]" />
+    <MESSAGE value="20240117 [Two Pointers]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240117 [Two Pointers]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
