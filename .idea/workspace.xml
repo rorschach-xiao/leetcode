@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240120 [Dynamic Programming]">
-      <change afterPath="$PROJECT_DIR$/python/leetcode1043.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode1048.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/leetcode926.py" afterDir="false" />
+    <list default="true" id="6c001c46-aec2-48e1-88cc-79d6ef71c48b" name="Default Changelist" comment="20240122 [Heap]">
+      <change afterPath="$PROJECT_DIR$/python/leetcode355.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/leetcode621.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/leetcode373.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/leetcode373.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,21 +418,7 @@
       <workItem from="1703324547572" duration="490000" />
       <workItem from="1703638763975" duration="30439000" />
       <workItem from="1704934353009" duration="5698000" />
-      <workItem from="1705009436973" duration="47751000" />
-    </task>
-    <task id="LOCAL-00067" summary="20231129 [Sliding Window]">
-      <created>1701342922097</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1701342922098</updated>
-    </task>
-    <task id="LOCAL-00068" summary="20231130 [Set]">
-      <created>1701429847965</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1701429847966</updated>
+      <workItem from="1705009436973" duration="58274000" />
     </task>
     <task id="LOCAL-00069" summary="20231130 [Set]">
       <created>1701447863670</created>
@@ -763,7 +749,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705830731664</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="20240121 [Dynamic Programming]">
+      <created>1705879609738</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879609738</updated>
+    </task>
+    <task id="LOCAL-00117" summary="20240122 [Heap]">
+      <created>1705998668257</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1705998668257</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -811,8 +811,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20231214 [BFS]" />
-    <MESSAGE value="20231214 [Greedy]" />
     <MESSAGE value="20231214 [Greedy + prefixSum]" />
     <MESSAGE value="20231217 [tiktok]" />
     <MESSAGE value="20231220 [BFS &amp; monotonic stack]" />
@@ -836,7 +834,9 @@
     <MESSAGE value="20240118 [backtracing]" />
     <MESSAGE value="20240119 [Dynamic Programming]" />
     <MESSAGE value="20240120 [Dynamic Programming]" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240120 [Dynamic Programming]" />
+    <MESSAGE value="20240121 [Dynamic Programming]" />
+    <MESSAGE value="20240122 [Heap]" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240122 [Heap]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
